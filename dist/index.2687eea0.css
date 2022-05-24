@@ -1,0 +1,23 @@
+.search-form__input {
+  border: none;
+  border-bottom: 1px solid tomato;
+}
+
+.search-form__button {
+  background-color: #96aa96;
+  border: none;
+}
+
+.btn {
+  background-color: #0000;
+  border: none;
+  padding: .5rem 1rem;
+  font-size: 1rem;
+}
+
+.btn__dark {
+  color: #fff;
+  background-color: #000;
+}
+
+/*# sourceMappingURL=index.2687eea0.css.map */

@@ -1,0 +1,17 @@
+{
+  "name": "simple-example",
+  "version": "1.0.0-beta.1",
+  "scripts": {
+    "build": "parcel build pages/index.hbs --no-cache --public-url ./",
+    "start": "parcel pages/index.hbs --no-cache && parcel watch ./*"
+  },
+  "devDependencies": {
+    "@anikin/parcel-transformer-handlebars": "^1.0.9",
+    "parcel": "^2.3.2",
+    "postcss-brand-colors": "^3.0.0",
+    "postcss-nested": "^5.0.6"
+  },
+  "dependencies": {
+    "postcss": "^8.4.14"
+  }
+}
